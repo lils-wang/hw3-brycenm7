@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  toc:
+    - file: README.MD
+    - file: LOSC_Event_tutorial.ipynb
+  id: 9cc9c300-9e8f-4a6e-bd5b-16469f38f2b0
+  binder:
+    url: https://hub.gesis.mybinder.org/user/ucb-stat-159-f25-hw3-brycenm7-njlrbp7l/lab  # Or your custom BinderHub URL
+    provider: github
+  title: LIGO Gravitational Data Tutorial
+  # description:
+  # keywords: []
+  authors: [Ligo Scientific Collaboration (LSC) and Brycen Manners]
+  github: https://github.com/UCB-stat-159-f25/hw3-brycenm7
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
